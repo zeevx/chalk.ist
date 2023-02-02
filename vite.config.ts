@@ -13,17 +13,6 @@ export default defineConfig(({ mode }) => ({
     },
   },
   plugins: [
-    {
-      name: "html-transform",
-      transformIndexHtml(html) {
-        if (mode !== "production") return html;
-
-        return html.replace(
-          "<!-- %UMAMI% -->",
-          `<script async defer data-website-id="74b418ca-7be5-48a9-8947-d62340be88cc" src="https://umami.kasper.io/umami.js" ></script>`
-        );
-      },
-    },
 
     Vue(),
 
@@ -43,8 +32,8 @@ export default defineConfig(({ mode }) => ({
       },
       includeAssets: ["og-image.png", "robots.txt", "favicon.ico"],
       manifest: {
-        name: "Chalk",
-        short_name: "Chalk",
+        name: "Custimony Studio",
+        short_name: "Custimony",
         theme_color: "#101014",
         background_color: "#101014",
         icons: [

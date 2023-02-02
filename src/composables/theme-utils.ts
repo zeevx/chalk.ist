@@ -1,3 +1,4 @@
+// @ts-ignore
 import * as monaco from "monaco-editor";
 import { CSSProperties } from "vue";
 

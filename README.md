@@ -1,25 +1,9 @@
-<h1 align="center">
-Chalk.ist
-</h1>
-
-<p align="center">Create beautiful images of your source code</p>
-
-<p align="center">
-<a href="https://chalk.ist">Go to App</a>
-</p>
-
-![](./.github/screenshot.jpeg)
-
-## Development
+# Custimony Studio
 
 ```
-pnpm install
+npm install
 ```
 
 ```
-pnpm run dev
+npm run dev
 ```
-
-## License
-
-MIT - Kasper Mikiewicz 2022
